@@ -3,38 +3,38 @@
     font-family: Verdana, sans-serif;
     padding: 0;
     margin: 0;
-    text-decoration: none;
-}
-
-.page {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 1rem;
-    margin-bottom: 2rem;
 }
 
 .category {
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+}
+
+.category_title {
     font-size: 1.5rem;
     font-weight: 600;
+}
 
+.category_title span {
+    padding-bottom: 3px;
+    border-bottom: 3px black solid;
+}
+
+.item:nth-child(2) {
+    margin-top: 1rem;
+}
+
+.item {
     margin-bottom: 1rem;
 }
 
-.sub_category {
-    font-size: 1.5rem;
-
-    margin-bottom: .5rem;
-    color: gray;
-}
-
-.link {
+.title {
     font-size: 1.2rem;
-    margin-bottom: .5rem;
+    font-weight: 600;
 }
 
-.link:active, .link:visited, .link:link {
-    color: black;
+.price {
+    font-size: 1.2rem;
 }
 
 #back_button {
