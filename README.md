@@ -1,7 +1,11 @@
-# This is my own game wiki.
+# Wiki for any game I play
 
-Everything i've experienced in the games available on this wiki has been
-documented & added on the wiki.
+# Purpose
+I dislike wikis for games because of too much cluttered content. I really like
+the simplicity of a barebones site.
 
-# Goal.
-Trying to make a wiki about games, simulating the inexistance of other wikis.
+This site simulates the absence of any other wiki. Meaning all the data is from
+my experience and these games. Probabilities, drops, items and all the data.
+
+The reason it's not based on other wikis is to prevent spoilers. The data is
+available on the site simply for fast and easy access to data. As it should be.
