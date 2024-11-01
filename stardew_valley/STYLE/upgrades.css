@@ -1,0 +1,22 @@
+@import url(https://fonts.bunny.net/css?family=abril-fatface:400|abyssinica-sil:400);
+
+* {
+    font-family: 'Abyssinica SIL';
+    box-sizing: border-box;
+}
+
+.games_list {
+    display: flex;
+    flex-direction: row;
+}
+
+.page, .page a:visited, .page a:active, .page a:link {
+    font-size: 1.5rem;
+    color: black;
+    list-style: none;
+}
+
+#back_btn {
+    font-size: 1rem;
+    margin-left: 1rem;
+}

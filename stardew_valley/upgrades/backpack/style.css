@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.tier {
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.slots {
+    font-size: 1.2rem;
+}
+
+.cost {
+    font-size: 1.2rem;
+}
+
+#back_button {
+    display: inline-block;
+
+    font-size: 1.2rem;
+
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+
+    padding: .5rem;
+
+    border: 1px black solid;
+}
+
+#back_button_link:active, #back_button_link:visited, #back_button_link:link {
+    color: black;
+}

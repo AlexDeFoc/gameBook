@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.game:nth-child(1) {
+    margin-top: 1rem;
+}
+
+.game {
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.link {
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+}
+
+.link:active, .link:visited, .link:link {
+    color: black;
+}
