@@ -5,9 +5,9 @@
     margin: 0;
 }
 
-.plant {
+.event {
     margin-left: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .title {
@@ -15,15 +15,15 @@
     font-weight: 600;
 }
 
+.task {
+    font-size: 1.2rem;
+}
+
 .time {
     font-size: 1.2rem;
 }
 
-.cost {
-    font-size: 1.2rem;
-}
-
-.special {
+.place {
     font-size: 1.2rem;
 }
 

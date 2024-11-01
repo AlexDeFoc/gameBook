@@ -5,25 +5,35 @@
     margin: 0;
 }
 
-.plant {
+.category {
     margin-left: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+
+.category_title {
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    margin-bottom: 1rem;
+}
+
+.category_title span {
+    padding-bottom: 3px;
+    border-bottom: 3px black solid;
 }
 
 .title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
+
+    margin-bottom: .5rem;
 }
 
-.time {
+.tier {
     font-size: 1.2rem;
 }
 
-.cost {
-    font-size: 1.2rem;
-}
-
-.special {
+.capacity {
     font-size: 1.2rem;
 }
 
