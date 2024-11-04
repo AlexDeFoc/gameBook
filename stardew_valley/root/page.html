@@ -9,39 +9,78 @@
     <body>
         <a id="back_button_link" href="../../index.html"><div id="back_button">Back</div></a>
 
-        <div class="page">
-            <p class="category">Stores</p>
+        <!-- Fixed-branching stores -->
+        <div class="category">
+            <p class="category_title section_title">Fixed Stores</p>
 
-            <p class="sub_category">Pierre</p>
-            <a href="../stores/pierre/vegetables/page.html" class="link">Vegetables</a>
-            <a href="../stores/pierre/flowers/page.html" class="link">Flowers</a>
-
-            <br>
-
-            <p class="sub_category">Joja Mart</p>
-            <a href="../stores/joja_mart/vegetables/page.html" class="link">Vegetables</a>
-            <a href="../stores/joja_mart/flowers/page.html" class="link">Flowers</a>
+            <div class="store iteration">
+                <p class="store_title title">Pierre</p>
+                <a class="store_branch link" href="../stores/pierre/vegetables/page.html">Vegetables</a>
+                <a class="store_branch link" href="../stores/pierre/flowers/page.html">Flowers</a>
+            </div>
+            <div class="store iteration">
+                <p class="store_title title">JojaMart</p>
+                <a class="store_branch link" href="../stores/joja_mart/vegetables/page.html">Vegetables</a>
+                <a class="store_branch link" href="../stores/joja_mart/flowers/page.html">Flowers</a>
+            </div>
         </div>
 
-        <div class="page">
-            <p class="category">Upgrades</p>
-            <a href="../upgrades/backpack/page.html" class="link">Backpack</a>
+        <!-- Mixed-timed stores -->
+        <div class="standalone">
+            <p class="mixed-title section_title">Timed Stores</p>
+
+            <div class="store iteration">
+                <p class="store_title title">Traveler</p>
+                <a class="store_branch link" href="../stores/traveler/seeds/page.html">Seeds</a>
+            </div>
+            <div class="store iteration">
+                <a class="store_title title_link" href="../stores/marcello/page.html">Marcello: Books</a>
+            </div>
+            <div class="store iteration">
+                <p class="store_title title">Egg festival</p>
+                <a class="store_branch link" href="../stores/egg_festival/seeds/page.html">Seeds</a>
+            </div>
         </div>
 
-        <div class="page">
-            <a href="../sell_box/page.html" class="link"><p class="category">Sell box</p></a>
+        <!-- Useful pages -->
+        <div class="standalone">
+            <p class="standalone_title section_title">Useful pages</p>
+
+            <div class="useful_page iteration">
+                <a class="useful_page_title title_link" href="../all_items/page.html">All items</a>
+            </div>
+            <div class="useful_page iteration">
+                <p class="useful_page_title title">Sell Box</p>
+                <a class="useful_page_branch link" href="../sell_box/farming/page.html">Farming</a>
+                <a class="useful_page_branch link" href="../sell_box/foraging/page.html">Foraging</a>
+                <a class="useful_page_branch link" href="../sell_box/fishing/page.html">Fishing</a>
+                <a class="useful_page_branch link" href="../sell_box/mining/page.html">Mining</a>
+                <a class="useful_page_branch link" href="../sell_box/other/page.html">Other</a>
+            </div>
+            <div class="useful_page iteration">
+                <a class="useful_page_title title_link" href="../events/page.html">Events</a>
+            </div>
+            <div class="useful_page iteration">
+                <a class="useful_page_title title_link" href="../skills/page.html">Skills</a>
+            </div>
+            <div class="useful_page iteration">
+                <a class="useful_page_title title_link" href="../routines/people/page.html">People's routines</a>
+            </div>
         </div>
 
-        <div class="page">
-            <a href="../skills/page.html" class="link"><p class="category">Skills</p></a>
-        </div>
+        <!-- Upgrades pages -->
+        <div class="category">
+            <p class="category_title section_title">Upgrades</p>
 
-        <div class="page">
-            <a href="../events/page.html" class="link"><p class="category">Events</p></a>
-        </div>
-
-        <div class="page">
-            <a href="../all_items/page.html" class="link"><p class="category">All items</p></a>
+            <div class="upgrade iteration">
+                <a class="upgrade_title title_link" href="../upgrades/house/page.html">House</a>
+            </div>
+            <div class="upgrade iteration">
+                <a class="upgrade_title title_link" href="../upgrades/backpack/page.html">Backpack</a>
+            </div>
+            <div class="upgrade iteration">
+                <a class="upgrade_title title_link" href="../upgrades/tools/page.html">Tools</a>
+            </div>
         </div>
     </body>
 </html>

@@ -3,46 +3,21 @@
     font-family: Verdana, sans-serif;
     padding: 0;
     margin: 0;
-    text-decoration: none;
 }
 
-a:link, a:active, a:visited, a:hover {
-    color: black;
-}
-
-.category, .standalone {
+.seed {
     margin-left: 1rem;
-    margin-bottom: 3rem;
-}
-
-.section_title {
-    font-size: 1.5rem;
-    text-decoration: underline;
-    margin-bottom: .5rem;
-}
-
-.iteration {
-    margin-bottom: 1rem;
-    display: flex;
-    flex-direction: column;
+    margin-bottom: 2rem;
 }
 
 .title {
     margin-bottom: .5rem;
     font-size: 1.5rem;
     font-weight: 600;
-    align-self: flex-start;
 }
 
-.link {
+.attribute {
     font-size: 1.2rem;
-    align-self: flex-start;
-}
-
-.title_link {
-    font-size: 1.5rem;
-    align-self: flex-start;
-    font-weight: 600;
 }
 
 #back_button {

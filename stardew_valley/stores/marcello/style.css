@@ -5,23 +5,13 @@
     margin: 0;
 }
 
-.season {
+
+.book {
     margin-left: 1rem;
-    margin-bottom: 3rem;
-}
-
-.season_title {
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
-    text-decoration: underline;
-}
-
-.plant {
     margin-bottom: 2rem;
 }
 
-.plant_title {
-    margin-bottom: .5rem;
+.title {
     font-size: 1.5rem;
     font-weight: 600;
 }

@@ -3,46 +3,49 @@
     font-family: Verdana, sans-serif;
     padding: 0;
     margin: 0;
-    text-decoration: none;
 }
 
-a:link, a:active, a:visited, a:hover {
-    color: black;
-}
-
-.category, .standalone {
+.item {
     margin-left: 1rem;
-    margin-bottom: 3rem;
-}
-
-.section_title {
-    font-size: 1.5rem;
-    text-decoration: underline;
-    margin-bottom: .5rem;
-}
-
-.iteration {
     margin-bottom: 1rem;
-    display: flex;
-    flex-direction: column;
 }
 
 .title {
-    margin-bottom: .5rem;
     font-size: 1.5rem;
     font-weight: 600;
-    align-self: flex-start;
 }
 
-.link {
+.profit-title {
     font-size: 1.2rem;
-    align-self: flex-start;
+    font-weight: 600;
 }
 
-.title_link {
-    font-size: 1.5rem;
-    align-self: flex-start;
-    font-weight: 600;
+.attribute {
+    font-size: 1.2rem;
+    display: inline-block;
+    padding-left: 0.35rem;
+    padding-right: 0.35rem;
+    border-radius: 10%;
+}
+
+.quality_null {
+    border: 0.35rem #000000 solid;
+}
+
+.quality_basic {
+    border: 0.35rem #792d10 solid;
+}
+
+.quality_silver {
+    border: 0.35rem #c0c0c0 solid;
+}
+
+.quality_gold {
+    border: 0.35rem #ffd700 solid;
+}
+
+.quality_iridium {
+    border: 0.35rem #5c2be2 solid;
 }
 
 #back_button {

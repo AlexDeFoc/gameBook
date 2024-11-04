@@ -5,9 +5,40 @@
     margin: 0;
 }
 
-.event {
+.event_category {
     margin-left: 1rem;
     margin-bottom: 3rem;
+}
+
+.event_category_title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.season_title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+.year_title {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    border-bottom: 5px darkgreen solid;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+.festivals {
+    margin-bottom: 2rem;
+}
+
+.event_module_title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom: 5px red solid;
+    display: inline-block;
+    margin-bottom: 1.5rem;
 }
 
 .title {
@@ -15,15 +46,11 @@
     font-weight: 600;
 }
 
-.task {
-    font-size: 1.2rem;
+.festival, .event {
+    margin-bottom: 1rem;
 }
 
-.time {
-    font-size: 1.2rem;
-}
-
-.place {
+.text {
     font-size: 1.2rem;
 }
 

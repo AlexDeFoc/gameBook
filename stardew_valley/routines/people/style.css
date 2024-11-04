@@ -10,39 +10,13 @@ a:link, a:active, a:visited, a:hover {
     color: black;
 }
 
-.category, .standalone {
+.person {
     margin-left: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
-.section_title {
+.name {
     font-size: 1.5rem;
-    text-decoration: underline;
-    margin-bottom: .5rem;
-}
-
-.iteration {
-    margin-bottom: 1rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.title {
-    margin-bottom: .5rem;
-    font-size: 1.5rem;
-    font-weight: 600;
-    align-self: flex-start;
-}
-
-.link {
-    font-size: 1.2rem;
-    align-self: flex-start;
-}
-
-.title_link {
-    font-size: 1.5rem;
-    align-self: flex-start;
-    font-weight: 600;
 }
 
 #back_button {

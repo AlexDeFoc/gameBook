@@ -5,35 +5,27 @@
     margin: 0;
 }
 
-.category {
+.season {
     margin-left: 1rem;
     margin-bottom: 3rem;
 }
 
-.category_title {
+.season_title {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    text-decoration: underline;
+}
+
+.moment {
+    margin-bottom: 2rem;
+}
+
+.time {
     font-size: 1.5rem;
     font-weight: 600;
 }
 
-.category_title span {
-    padding-bottom: 3px;
-    border-bottom: 3px black solid;
-}
-
-.item:nth-child(2) {
-    margin-top: 1rem;
-}
-
-.item {
-    margin-bottom: 1rem;
-}
-
-.title {
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-
-.price {
+.attribute {
     font-size: 1.2rem;
 }
 
